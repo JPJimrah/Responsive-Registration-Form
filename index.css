@@ -97,10 +97,11 @@ button{
 	body{
 		max-height: 100%;
 		max-width: 100%;
+		display: inline;
 
 			}
 	main {
-		display: inline-block;
+		display: inline;
 		max-width: 20%;
 		max-height: 50%;
 		align-items: center;
