@@ -93,7 +93,7 @@ button{
 	cursor: pointer;
 }
 
-@media screen and (max-width:375px ){
+@media screen and (max-width:375px; ){
 	body{
 		max-height: 100%;
 		max-width: 100%;
