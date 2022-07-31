@@ -16,11 +16,7 @@ main{
 	margin-left: 200px;	
 }
 
-@media screen and (max-width:1440pxpx ){
-	main {
-		display: none;
-	}
-}
+
 
 
 .note{
@@ -97,11 +93,11 @@ button{
 	body{
 		max-height: 100%;
 		max-width: 100%;
-		display: inline;
+		display: column;
 
 			}
 	main {
-		display: inline;
+		display: column;
 		max-width: 20%;
 		max-height: 50%;
 		align-items: center;
@@ -149,6 +145,15 @@ input {
 
 }
 
+@media screen and (max-width:1440pxpx ){
+
+	main {
+
+		display: none;
+
+	}
+
+}
 
 
 	 
